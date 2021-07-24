@@ -36,7 +36,7 @@ export default function Post({ post }: PostProps) {
   );
 }
 
-export const getServeSideProps: GetServerSideProps = async ({
+export const getServerSideProps: GetServerSideProps = async ({
   req,
   params,
 }) => {
